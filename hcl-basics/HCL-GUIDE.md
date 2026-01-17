@@ -28,4 +28,7 @@
 
 ## What does terraform init command do?
 
-It check the configuration file and initializes the working directory containing the .tf file.
+- It check the configuration file and initializes the working directory containing the .tf file. 
+- This command understand that we are making use of particular provider based on the resource type declared in the resource block.
+- It will download the plugin to be able to work on resources declared in the .tf file.
+
